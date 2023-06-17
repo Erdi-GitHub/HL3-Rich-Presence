@@ -34,7 +34,7 @@ public class Application implements Runnable {
         DiscordRPC.discordInitialize(APP_ID, eventHandlers, false);
         DiscordRPC.discordRegister(APP_ID, "");
 
-        JFrame frame = new JFrame("HL3");
+        JFrame frame = new JFrame("Half Life 3");
         frame.setSize(50, 50);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
